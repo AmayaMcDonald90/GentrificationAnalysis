@@ -1,0 +1,78 @@
+﻿Are landlords spending 75% of their income on gentrified or ungentrified neighborhoods?
+
+
+
+
+For this step, I parted from the data we presented on the first assignment. My analysis is based on the 5 - v-lookup add gentrified info as I considered the ethnic information added in the following steps inessential to the analysis of expenses for maintenance and repairs in gentrified and non-gentifried areas in New York city..
+Link to the data: https://docs.google.com/spreadsheets/d/10ELkgR6f-pkw4gif_6agxBGS2qUyve3AYtRgtDrh2zM/edit#gid=1485466940
+
+
+Methodology:
+
+
+1. On my copy of  5 - v-lookup add, I deleted the columns of: Office. Owner Related Space, Gov. Rental, Authorized Lease and Tenant. Imp costs and Filling Year to better identify numbers of select buildings/rental properties.
+
+
+2. I created a column named “% of Repairs and Maint from Total Expenses.”
+
+
+3. I calculated the percentages used from the total expenses by using the function Divide ( =DIVIDE(Repairs and Maint, Total Expenses)  ) then, I changed the result to a percentage format.
+
+
+4.  I used conditional formatting to the “% of Repairs and Maint from Total Expenses” to have a better visualization of the values. 
+
+
+5. I created another sheet where I filtered the gentrified areas (filtered copy of 5- Gentrified repair/ maintenance.) and added the Z-A filter to visualize the highest expenses on the maintenance and repairs of the properties. 
+
+
+6. In that same sheet,, I use the average function to get an idea of the standard percentage from the data we have. 
+
+
+7. I created another sheet where I filtered the non-gentrified areas (filtered copy of 5- NonGentrified repair/ maintenance.) and added the Z-A filter to visualize the highest expenses on the maintenance and repairs of the  properties. 
+
+
+8. In that same sheet,, I use the average function to get an idea of the standard percentage from the data we have. 
+
+
+
+
+
+
+
+
+What I found:
+
+
+* None of the properties that were analyzed complied with the requirement established by the University Neighborhood Housing Program (UNHP), of the 75% or more of the expenses destineed to the maintenance and repairs of the property.
+
+
+* In gentrified area NYC, based on the data we have, the highest percentage of expenses destined to the maintenance of the property is 65.2%. The lowest is 1.38%.
+
+
+* In non- gentrified area NYC, based on the data we have, the highest percentage of expenses destined to the maintenance of the property is 72.38%. The lowest is 0.61%.
+
+
+* In gentrified areas, the average of the expenses destined to the maintenance and repairs of properties is 20.24%.
+
+
+* In non-gentrified areas, the average of the expenses destined to the maintenance and repairs of properties is 20.61%.
+
+
+Analysis:
+Real estate speculation happens when investors acquire properties with the goal of getting profits at the time of selling those same properties. The increase in the price of the properties could be obtained from improvements of the property and if the property is in high-growth areas. 
+In New York City, according to articles and studies, speculation in certain parts of the city is driving poor housing quality, which can lead to constructive evictions due to the lack of actions of the landlors
+
+
+
+
+The point of this analysis is to identify any pattern present in the amounts of money landlords across the city use to address repairments and maintenance to their properties. Driving 
+It is important to clarify this analysis doesn’t intend to give an accurate conclusion of New York City as a whole. We are working only with segments of data obtained from the city. 
+
+
+Real estate speculation refers to a process where investors buy properties with the goal of selling them later at a profit. This can be done by buying properties in high-growth areas, making improvements to the property, and waiting for demand to increase
+
+
+According to an article published in The City, “Landlords have two primary ways to boost a building’s profits and justify higher values: raise rents or slash costs.”
+
+
+A joint report by the Local Initiatives Support Corporation (LISC) and UNHP released in March outlines how speculation is linked to displacement and deregulation. The report found that between 2003 and 2020, “multifamily buildings were more likely to be resold at a higher price” in “lower-income, Black and Latinx neighborhoods seeing signs of gentrification.”
